@@ -109,9 +109,9 @@ contains(names, "Colt", function (result) {
 const uniq = (arr, cb) => {
   return cb(
     arr.reduce((acc, cur) => {
-      if (acc === cur) {
-        delete cur;
-      }
+      // if (acc === cur) {
+      //   delete cur;
+      // }
     })
   );
 };
